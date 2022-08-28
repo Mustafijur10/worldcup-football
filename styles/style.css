@@ -14,7 +14,6 @@
 
 main {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +28,6 @@ main {
     border-radius: 30px;
     width: 1321px;
     height: 646px;
-    border: 1px solid green;
     align-items: center;
 }
 
@@ -41,7 +39,6 @@ main {
 .page-info {
     width: 531px;
     height: 424px;
-    border: 1px solid red;
     margin-left: 106px;
     margin-top: 111px;
 }
@@ -62,7 +59,6 @@ main {
     width: 506px;
     height: 78px;
     margin-top: 20px;
-    border: 1px solid red;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -79,7 +75,7 @@ main {
     height: 23px;
     text-decoration: none;
     Padding: 16px 25px 16px 25px;
-    border: 1px solid pink;
+    border-radius: 5px;
     background: #DD0000;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -95,9 +91,19 @@ main {
     height: 613px;
     margin-left: 24px;
     margin-top: 33px;
-    border: 1px solid red;
 }
 
 .page-icon-image img {
     width: 100%;
+}
+
+/* Hover  */
+.top-section:hover .page-link a {
+    background: rgb(139, 48, 48);
+    transition: 1s;
+}
+
+.top-section:hover .page-icon-image img {
+    transform: scale(1.1);
+    transition: transform 1s;
 }
