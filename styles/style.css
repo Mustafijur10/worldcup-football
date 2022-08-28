@@ -7,9 +7,9 @@
 
 
 
-/* -----------------
-     Common styles
-------------------- */
+/* ---------------------------------------------------------- 
+                       Common styles
+------------------------------------------------------------ */
 
 
 main {
@@ -94,12 +94,12 @@ main {
 }
 
 .page-icon-image img {
-    width: 100%;
+    width: 95.5%;
 }
 
 /* Hover  */
 .top-section:hover .page-link a {
-    background: rgb(139, 48, 48);
+    background: rgb(21, 21, 102);
     transition: 1s;
 }
 
