@@ -273,12 +273,17 @@ main {
 
 .footer-social-icons {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 300px;
     height: 30px;
     margin-top: 50px;
     color: #B9B9B9;
     font-size: 25px;
+}
+
+.footer-social-icons a {
+    text-decoration: none;
+    color: #B9B9B9;
 }
 
 
