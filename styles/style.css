@@ -226,4 +226,50 @@ main {
     height: 444px;
     background: #161616;
     margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-goal h1 {
+    width: 95px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-goal hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+.informations {
+    width: 898px;
+    height: 24px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 50px;
+}
+
+.informations a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #B9B9B9;
+    font-size: 16px;
+}
+
+.footer-social-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+    color: #B9B9B9;
+    font-size: 25px;
 }
