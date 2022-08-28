@@ -112,6 +112,7 @@ main {
              Matches information
 ----------------------------------------- */
 
+
 .match-info {
     width: 1320px;
     height: 1134px;
@@ -129,16 +130,22 @@ main {
 }
 
 .match-timing-details {
+    display: flex;
+    flex-direction: column;
+
     width: 252px;
     height: 252px;
     margin-left: 30px;
     margin-top: 30px;
+
 }
 
-.match-timing-details h1 {
+.match-timing-details a {
+    text-decoration: none;
     width: 252px;
     height: 64px;
     background: #FFFFFF;
+    color: #161616;
     margin-bottom: 30px;
     margin-top: 0;
     text-align: center;
@@ -272,4 +279,77 @@ main {
     margin-top: 50px;
     color: #B9B9B9;
     font-size: 25px;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+                           Upcoming matches styles
+-------------------------------------------------------------------- */
+.upcoming-match-info {
+    width: 1320px;
+    height: 533px;
+    margin-top: 130px;
+    display: flex;
+}
+
+.all-upcoming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.upcoming-matches {
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.match-date-and-time {
+    width: 252px;
+    height: 136.18px;
+    margin-left: 30px;
+    margin-top: 53px;
+}
+
+.flag {
+    width: 252px;
+    height: 56.18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: center;
+}
+
+.flag h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.time-and-date {
+    width: 202px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.time-and-date h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.time-and-date h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
 }
