@@ -124,6 +124,8 @@ main {
     height: 312px;
     background: #161616;
     border-radius: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .match-timing-details {
