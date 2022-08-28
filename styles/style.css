@@ -1,0 +1,86 @@
+/*--------------------------------------------------- 
+-----------------Google font link ----------------
+---------------------------------------------------- */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*-------------------------------------------
+----------- top section styles  -------------
+---------------------------------------------- */
+
+.top-section {
+    background: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    border: 1px solid green;
+}
+
+.web-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.page-info {
+    width: 531px;
+    height: 424px;
+    border: 1px solid red;
+    margin-left: 106px;
+    margin-top: 111px;
+}
+
+.page-title {
+    width: 531px;
+    height: 240px;
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.page-details {
+    width: 506px;
+    height: 78px;
+    margin-top: 20px;
+    border: 1px solid red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.page-link {
+    margin-top: 30px;
+}
+
+.page-link a {
+    width: 103px;
+    height: 23px;
+    text-decoration: none;
+    Padding: 16px 25px 16px 25px;
+    border: 1px solid pink;
+    background: #DD0000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.page-link i {
+    margin-left: 10px;
+}
+
+.page-icon-image {
+    width: 581px;
+    height: 613px;
+    margin-left: 24px;
+    margin-top: 33px;
+    border: 1px solid red;
+}
+
+.page-icon-image img {
+    width: 100%;
+}
