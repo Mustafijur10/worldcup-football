@@ -10,8 +10,6 @@
 /* ---------------------------------------------------------- 
                        Common styles
 ------------------------------------------------------------ */
-
-
 main {
     width: 100%;
     display: flex;
@@ -97,7 +95,9 @@ main {
     width: 95.5%;
 }
 
-/* Hover  */
+/*-----------------------------------------------------------
+                            Mouse Hover  
+---------------------------------------------------------------*/
 .top-section:hover .page-link a {
     background: rgb(21, 21, 102);
     transition: 1s;
@@ -106,4 +106,109 @@ main {
 .top-section:hover .page-icon-image img {
     transform: scale(1.1);
     transition: transform 1s;
+}
+
+/*---------------------------------------
+             Matches information
+----------------------------------------- */
+
+.match-info {
+    width: 1320px;
+    height: 1134px;
+    margin-top: 130px;
+    display: flex;
+}
+
+.match-timing {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.match-timing-details {
+    width: 252px;
+    height: 252px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.match-timing-details h1 {
+    width: 252px;
+    height: 64px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#blog-background {
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+
+.player-transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.transfer-info {
+    margin-left: 24px;
+    border: 0.2px solid rgb(228, 228, 228);
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.transfer-info img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.transfer {
+    width: 100px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding-top: 4px;
+}
+
+.transfer a {
+    margin-left: 17px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #161616;
+    font-size: 16px;
+}
+
+.transfer-detail {
+    width: 272px;
+    height: 54px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.transfer-time {
+    width: 143px;
+    height: 26px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
 }
