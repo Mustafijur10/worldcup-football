@@ -148,11 +148,13 @@ main {
     color: #161616;
     margin-bottom: 30px;
     margin-top: 0;
-    text-align: center;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #blog-background {
