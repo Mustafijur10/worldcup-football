@@ -364,13 +364,184 @@ main {
     margin: 0;
 }
 
+/* mobile view  */
+
+
+@media screen and (max-width: 576px) {
+    .top-section {
+        background: #161616;
+        border-radius: 30px;
+        width: 334px;
+        height: 472px;
+        align-items: center;
+        margin-bottom: 620px;
+
+    }
+
+    .web-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-info {
+        width: 258px;
+        height: 178px;
+        margin-left: 38px;
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .page-title {
+        width: 228px;
+        height: 66px;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 33px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .page-details {
+        width: 258px;
+        height: 48px;
+        margin-top: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .page-link {
+        width: 161px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 16px;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+        Padding: 8px, 12px, 8px, 12px;
+        font-size: 15px;
+    }
+
+    .page-link a {
+        width: 150px;
+        height: 23px;
+    }
+
+    /* #iconic {
+        display: none;
+
+    } */
+
+    .page-icon-image {
+        width: 233px;
+        height: 245px;
+        margin-left: 63px;
+        margin-top: 21px;
+    }
+
+    .match-info {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 2875px;
+        margin-top: -600px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .match-timing {
+        width: 210px;
+        height: 175px;
+        background: none;
+        border-radius: 10px;
+        position: static;
+        margin-bottom: 100px;
+
+    }
+
+    .player-transfer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+
+        margin-top: -80px;
+    }
+
+    .match-timing-details a {
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        width: 210px;
+        height: 48px;
+        margin-left: -30px;
+        margin-top: -25px;
+
+    }
+
+    .transfer-info {
+        width: 335px;
+        height: 389px;
+        margin-left: 0;
+
+
+    }
+
+    .footer-goal {
+        width: 375px;
+        height: 412px;
+        margin-top: 1050px;
+    }
+
+    .footer-goal h1 {
+        margin-top: 20px;
+        margin-left: -30px;
+        width: 52px;
+        height: 33px;
+    }
+
+    .informations {
+        width: 347px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 0;
+
+    }
+
+    .footer-social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 200px;
+        height: 30px;
+        margin-top: 0px;
+        color: #B9B9B9;
+        font-size: 20px;
+        align-items: center;
+        margin-left: 50px;
+
+    }
+}
 
 /* ---------------------------------------------------------
               Meadia Query   Responsive for tablet 
 -------------------------------------------------------------*/
 
-
-@media screen and (max-width: 820px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
 
 
     .top-section {
@@ -535,8 +706,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        border: 2px solid red;
+        margin-bottom: -50px;
 
     }
 
@@ -561,3 +731,6 @@ main {
     }
 
 }
+
+
+/* Mobile view  */
