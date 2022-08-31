@@ -367,7 +367,7 @@ main {
 /* mobile view  */
 
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .top-section {
         background: #161616;
         border-radius: 30px;
