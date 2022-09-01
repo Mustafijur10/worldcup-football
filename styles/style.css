@@ -1,7 +1,7 @@
 /*--------------------------------------------------- 
 -----------------Google font link ----------------
 ---------------------------------------------------- */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 
@@ -227,7 +227,28 @@ main {
     color: rgba(22, 22, 22, 0.7);
 }
 
+/* special Button (bonus) style  */
 
+
+.special-button {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.button-setting {
+    width: 131px;
+    height: 47px;
+    background: #DD0000;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
 
 /* -----------------------------------------------
                    Footer styles
@@ -284,6 +305,7 @@ main {
     margin-top: 50px;
     color: #B9B9B9;
     font-size: 25px;
+    margin-left: 80px;
 }
 
 .footer-social-icons a {
@@ -295,7 +317,7 @@ main {
 
 
 /* -----------------------------------------------------------------
-                           Upcoming matches styles
+                           Upcoming matches website styles
 -------------------------------------------------------------------- */
 .upcoming-match-info {
     width: 1320px;
@@ -364,7 +386,9 @@ main {
     margin: 0;
 }
 
-/* mobile view  */
+/* --------------------------------------------------------------
+                    Mobile view media query  
+------------------------------------------------------------------*/
 
 
 @media screen and (max-width: 688px) {
@@ -436,11 +460,6 @@ main {
         height: 23px;
     }
 
-    /* #iconic {
-        display: none;
-
-    } */
-
     .page-icon-image {
         width: 233px;
         height: 245px;
@@ -498,7 +517,7 @@ main {
     }
 
 
-    /* upcoming matches for mobile view  */
+    /* upcoming matches website for mobile view  */
 
     .upcoming-match-info {
         display: flex;
@@ -508,7 +527,6 @@ main {
         margin-top: -600px;
         align-items: center;
         text-align: center;
-        border: 1px solid green;
         margin-bottom: -1000px;
     }
 
@@ -531,7 +549,7 @@ main {
         margin-left: 0;
     }
 
-    /* footer fot mobi;e view  */
+    /* footer fot mobile view  */
 
     .footer-goal {
         width: 375px;
@@ -685,11 +703,33 @@ main {
 
     }
 
+
+    /* ----------------------------------------------------------
+        ---------------------special button  -----------------------*/
+
+
+
+    .special-button {
+        width: 100%;
+        height: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+
+
+    /*----------------------------------------------------------
+    -------------------- footer media query  -----------------*/
+
+
     .footer-goal {
         width: 100%;
         height: 345px;
         background: #161616;
-        margin-top: 130px;
+        margin-top: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -734,7 +774,12 @@ main {
     }
 
 
-    /* upcoming match  */
+    /* -------------------------------------------------------
+    --------------------------upcoming match  ---------------------*/
+
+
+
+
     .upcoming-match-info {
         width: 734px;
         height: 880px;
@@ -767,6 +812,3 @@ main {
     }
 
 }
-
-
-/* Mobile view  */
