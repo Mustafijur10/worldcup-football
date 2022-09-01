@@ -367,7 +367,7 @@ main {
 /* mobile view  */
 
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 688px) {
     .top-section {
         background: #161616;
         border-radius: 30px;
@@ -541,7 +541,7 @@ main {
               Meadia Query   Responsive for tablet 
 -------------------------------------------------------------*/
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 689px) and (max-width: 992px) {
 
 
     .top-section {
